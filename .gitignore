@@ -1,0 +1,40 @@
+# Swap, backup, and undo files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.undo
+
+# Neovim data and cache directories
+site/
+plugin/
+autoload/
+pack/
+lua-language-server/
+nvim-data/
+nvim-cache/
+nvim-undo/
+nvim-backup/
+
+# Plugin manager directories (e.g., Packer, Lazy.nvim)
+packer_compiled.lua
+lazy-lock.json
+site/pack/packer/start/*
+site/pack/packer/opt/*
+site/pack/lazy/start/*
+site/pack/lazy/opt/*
+
+# Node.js and Python virtual environments
+node_modules/
+venv/
+.env/
+.envrc
+
+# Logs and temporary files
+*.log
+*.out
+*.pid
+
+# OS-specific files
+.DS_Store
+Thumbs.db
